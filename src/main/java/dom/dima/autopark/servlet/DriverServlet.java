@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
 
-@WebServlet(urlPatterns = "/drivers-create")
+@WebServlet(urlPatterns = "/")
 public class DriverServlet extends HttpServlet {
 
 //    @Inject
