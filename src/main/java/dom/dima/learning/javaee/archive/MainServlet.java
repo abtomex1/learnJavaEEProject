@@ -1,4 +1,4 @@
-package dom.dima.learning.javaee;
+package dom.dima.learning.javaee.archive;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;

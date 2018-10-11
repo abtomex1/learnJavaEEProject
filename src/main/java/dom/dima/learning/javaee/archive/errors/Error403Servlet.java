@@ -1,4 +1,4 @@
-package dom.dima.learning.javaee.errors;
+package dom.dima.learning.javaee.archive.errors;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(urlPatterns = "error403")
+@WebServlet(urlPatterns = "error40 3")
 public class Error403Servlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

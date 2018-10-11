@@ -7,23 +7,18 @@
 
   <servlet>
     <servlet-name>main</servlet-name>
-    <servlet-class>dom.dima.learning.javaee.MainServlet</servlet-class>
+    <servlet-class>dom.dima.learning.javaee.archive.MainServlet</servlet-class>
   </servlet>
 
   <servlet>
     <servlet-name>catalog</servlet-name>
-    <servlet-class>dom.dima.learning.javaee.CatalogServlet</servlet-class>
+    <servlet-class>dom.dima.learning.javaee.archive.CatalogServlet</servlet-class>
   </servlet>
 
   <servlet>
     <servlet-name>error404</servlet-name>
-    <servlet-class>dom.dima.learning.javaee.errors.Error404Servlet</servlet-class>
+    <servlet-class>dom.dima.learning.javaee.archive.errors.Error404Servlet</servlet-class>
   </servlet>
-
-  <servlet-mapping>
-    <servlet-name>error404</servlet-name>
-    <url-pattern>/error404</url-pattern>
-  </servlet-mapping>
 
   <servlet-mapping>
     <servlet-name>main</servlet-name>
@@ -33,6 +28,11 @@
   <servlet-mapping>
     <servlet-name>catalog</servlet-name>
     <url-pattern>/catalog</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>error404</servlet-name>
+    <url-pattern>/error404</url-pattern>
   </servlet-mapping>
 
   <error-page>
